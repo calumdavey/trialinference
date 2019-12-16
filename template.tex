@@ -1,0 +1,79 @@
+% \usepackage[margin=0.5in]{geometry}  already loaded by pandoc
+\geometry{left=1.2in,right=1.2in,top=1.2in,bottom=1in}
+\usepackage{titling}
+\usepackage{afterpage}
+\pretitle{\begin{flushleft}\LARGE}
+\posttitle{\par\end{flushleft}\vskip 0em}
+\preauthor{\begin{flushleft}}
+\postauthor{\end{flushleft}\vskip 1em}
+\predate{\par\begin{flushleft}}
+\postdate{\par\end{flushleft}\vskip 0em}
+
+\usepackage{mathpazo}
+%\renewcommand{\familydefault}{\sfdefault} % sans serif
+%\fontfamily{ppl}\selectfont
+
+\usepackage{soul}
+\usepackage{xcolor}
+\definecolor{background}{RGB}{195,225,229}
+\definecolor{background2}{RGB}{255,255,255}
+\usepackage{placeins}
+\usepackage{setspace}
+
+%\usepackage[pagewise, modulo]{lineno}
+%\usepackage[modulo]{lineno}
+\usepackage{lineno}
+\linenumbers
+\modulolinenumbers[2]
+
+\usepackage{chngcntr}
+\usepackage{booktabs}
+\usepackage{fancyhdr}
+%# \onehalfspacing
+
+\doublespacing
+\linenumbers
+\setlength\parindent{12pt}
+\setlength{\parskip}{1em}
+
+%# \setcounter{tocdepth}{2}
+%# \counterwithin{figure}{section}
+%# \counterwithin{table}{section}
+%# \pagestyle{fancy}
+%# \renewcommand{\headrulewidth}{0.1pt}
+%# \renewcommand{\footrulewidth}{0pt}
+%# \fancyhead[LO]{\slshape\nouppercase{\rightmark}}
+%# \fancyhead[RE]{\slshape\nouppercase{\leftmark}}
+
+\usepackage{lscape}
+\newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}}
+\usepackage{caption}
+\usepackage{float}
+
+\raggedright 
+
+\makeatletter
+\newcommand{\rmnum}[1]{\romannumeral #1}
+\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+
+%\makeatletter
+%\renewenvironment{table}%
+%  {\renewcommand\familydefault\sfdefault
+%   \@float{table}}
+%  {\end@float}
+%\makeatother
+
+\let\origfigure\figure
+\let\endorigfigure\endfigure
+\renewenvironment{figure}[1][2] {
+    \expandafter\origfigure\expandafter[H]
+} {
+    \endorigfigure
+}
+
+\usepackage{makecell}
+\renewcommand\theadfont{\bfseries}
+
+
