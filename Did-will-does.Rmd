@@ -1,5 +1,7 @@
 ---
 title: "Did it work and will it work? (But not: does it work?)"
+author: "Calum Davey, LSHTM"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
  bookdown::pdf_document2:
    toc: FALSE
