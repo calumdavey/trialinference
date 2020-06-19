@@ -1,0 +1,7 @@
+---
+title: "Trial inference"
+date: "19/06/2020"
+output: html_document
+---
+
+

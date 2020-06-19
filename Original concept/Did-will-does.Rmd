@@ -6,8 +6,8 @@ output:
  bookdown::pdf_document2:
    toc: FALSE
    includes:
-      in_header: template.tex
-#bibliography: ../../../References/Library.bib
+      in_header: '/Users/LAPT0017/Dropbox/Calum/1.Work/LSHTM/PhD/Formats/template.tex'
+bibliography: '/Users/LAPT0017/Dropbox/Calum/1.Work/LSHTM/PhD/References/Library.bib'
 editor_options: 
   chunk_output_type: console
 ---
