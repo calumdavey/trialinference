@@ -4,4 +4,8 @@ date: "19/06/2020"
 output: html_document
 ---
 
-
+- Trials are conducted on samples 
+- But the samples are not random 
+- However, the SE of the effect estimate describes the distribution of effects if identical samples were drawn from the same population and the trial repeated 
+- But what if we didn't want to draw a new sample, but just wanted to know what the distribution of effects would be if the trial was repeated in the same sample? 
+- Assuming that the effect is the same for all participants, the distribution would be determined by the random variation in the allocation of the arms of the trial and variation over time in the level of the outcome measured in each individual 
